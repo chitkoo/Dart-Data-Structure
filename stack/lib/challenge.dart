@@ -10,6 +10,7 @@ void reverseList<E>(List<E> list) {
 
   while (stack.isNotEmpty) {
     print(stack.pop());
+    print('testing');
   }
 }
 
